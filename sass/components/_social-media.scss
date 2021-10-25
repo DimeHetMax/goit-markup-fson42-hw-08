@@ -1,0 +1,39 @@
+.social-media__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &--dark {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.social-media__svg {
+  fill: var(--social-media-fill);
+  &--dark {
+    fill: var(--social-media-fill-dark);
+  }
+  .social-media__link:hover &,
+  .social-media__link:focus & {
+    fill: var(--secondary-text-color);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .social-media__link & {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.social-media__list {
+  display: flex;
+}
+.social-media_item:not(:last-child) {
+  margin-right: 10px;
+}

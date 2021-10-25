@@ -1,0 +1,41 @@
+.section-lead {
+  padding: 94px 0px;
+  &__list {
+    display: flex;
+  }
+}
+
+.section-lead__item {
+  width: 270px;
+  height: auto;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.section-lead-feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  &__svg {
+    fill: black;
+  }
+}
+
+.section-lead__title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.section-lead__text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  width: 270px;
+}
