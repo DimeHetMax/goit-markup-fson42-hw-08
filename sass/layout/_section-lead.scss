@@ -1,12 +1,25 @@
 .section-lead {
-  padding: 94px 0px;
-  &__list {
-    display: flex;
+  // padding: 94px 0px;
+  @media screen and (min-width: 320px) {
+    padding: 60px 0px;
   }
+  // @media screen and (min-width: 450px) {
+  //   padding: 94px 0px;
+  // }
+  @media screen and (min-width: 738px) {
+    padding: 94px 0px;
+    .section-lead__list {
+      display: flex;
+    }
+  }
+  // &__list {
+  //   display: flex;
+  // }
 }
 
 .section-lead__item {
-  width: 270px;
+  // width: 270px;
+  width: 100% vw;
   height: auto;
   &:not(:last-child) {
     margin-right: 30px;

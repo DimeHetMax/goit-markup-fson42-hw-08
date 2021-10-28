@@ -10,12 +10,31 @@
     align-items: center;
   }
   &__logo {
-    margin-right: 93px;
+    // margin-right: 93px;
+    @media screen and (min-width: 320px) and (max-width: 450px) {
+      padding: 16px 0;
+    }
+    @media screen and (min-width: 451px) {
+      margin-right: 88px;
+    }
+    @media screen and (min-width: 739px) {
+      margin-right: 93px;
+    }
   }
 }
 
 .site-nav {
-  display: flex;
+  // display: flex;
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+  @media screen and (min-width: 451px) {
+    display: flex;
+    margin-right: 80px;
+  }
+  @media screen and (min-width: 739px) {
+    display: flex;
+  }
   &__item {
     position: relative;
   }
@@ -54,12 +73,33 @@
 }
 
 .site-contact {
-  display: flex;
+  // display: flex;
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+  @media screen and (min-width: 451px) {
+    display: inline-block;
+  }
+  @media screen and (min-width: 739px) {
+    display: flex;
+    align-items: center;
+  }
   &__item:not(:last-child) {
-    margin-right: 50px;
+    // margin-right: 50px;
+    @media screen and (min-width: 451px) and (max-width: 738px) {
+      margin-bottom: 10px;
+    }
+    @media screen and (min-width: 739px) {
+      margin-right: 50px;
+    }
   }
 }
-
+.site-contact__link:not(:last-child) {
+  @media screen and (min-width: 451px) and (max-width: 738px) {
+    margin-bottom: 10px;
+    // :not(:last-child)
+  }
+}
 .site-contact__link {
   display: flex;
   align-items: center;
@@ -69,8 +109,17 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  padding: 32px 0;
+  // padding: 32px 0;
+
+  // @media screen and (min-width: 451px) and (max-width: 738px) {
+  //   margin-bottom: 10px;
+  //   // :not(:last-child)
+  // }
+  @media screen and (min-width: 739px) {
+    padding: 32px 0;
+  }
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   &:focus,
   &:hover {
     color: var(--accent-color);
