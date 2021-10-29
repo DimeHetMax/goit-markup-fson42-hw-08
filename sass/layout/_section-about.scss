@@ -6,6 +6,9 @@
     letter-spacing: 0.03em;
     text-align: center;
   }
+  @media screen and (max-width: 1169px) {
+    display: none;
+  }
 }
 
 .section-about-list {
