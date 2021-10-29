@@ -9,24 +9,24 @@
 // // container
 @import './components/container';
 // // button
-// @import './components/button';
+@import './components/button';
 // // logo
 @import './components/logo';
 // // social-media
-// @import './components/social-media';
+@import './components/social-media';
 // // nav
 @import './layout/navigation';
 // // hero
-// @import './layout/hero';
+@import './layout/hero';
 // // section-lead
 @import './layout/section-lead';
 // // section-about
 @import './layout/section-about';
 // // section-team
-// @import './layout/section-team';
+@import './layout/section-team';
 // // section-costumers
-// @import './layout/section-costumers';
-// @import './components/costumers';
+@import './layout/section-costumers';
+@import './components/costumers';
 // // footer
 // @import './layout/footer';
 // // modal
