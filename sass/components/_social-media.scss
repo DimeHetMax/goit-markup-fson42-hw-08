@@ -33,6 +33,7 @@
 
 .social-media__list {
   display: flex;
+  justify-content: center;
 }
 .social-media_item:not(:last-child) {
   margin-right: 10px;
