@@ -192,7 +192,7 @@ body {
   align-items: center;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .page-header__logo {
     padding: 16px 0;
   }
