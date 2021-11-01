@@ -86,6 +86,11 @@
     // margin-left: 30px;
   }
 }
+.section-portfolio-pic__item:not(:last-child) {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 30px;
+  }
+}
 // .section-portfolio-pic__item:nth-child(3n) {
 //   margin-right: 0px;
 // }

@@ -1295,6 +1295,12 @@ body {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .section-portfolio-pic__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
 .section-portfolio-pic__link {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
