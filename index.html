@@ -144,20 +144,30 @@
                     <ul class="section-about-list list">
                         <li class="section-about-list__item">
                             <div class="section-about-overlay">
-                                <img class="section-about__img" src="./images/image1.jpg" alt="image1" width="370" height="294">
+                                <picture>
+                                    <source srcset="./images/about-pic1-1x.jpg 1x, ./images/about-pic1-2x.jpg 2x" media="(min-width:1200px)">
+                                    <img class="section-about__img" src="./images/about-pic1-1x.jpg" alt="about-pic1" width="370" >
+                                </picture>
                                 <p class="section-about-overlay__text text">десктопные приложения</p>
                             </div>
                             
                             </li>
                         <li class="section-about-list__item">
                             <div class="section-about-overlay">
-                                <img class="section-about__img" src="./images/image2.jpg" alt="image2" width="370" height="294">
+                                <picture>
+                                    <source srcset="./images/about-pic2-1x.jpg 1x, ./images/about-pic2-2x.jpg 2x" media="(min-width:1200px)">
+                                    <img class="section-about__img" src="./images/about-pic2-1x.jpg" alt="about-pic2" width="370">
+                                </picture>
                                 <p class="section-about-overlay__text text">мобильные приложения</p>
                             </div>
                             </li>
                         <li class="section-about-list__item">
                             <div class="section-about-overlay">
-                                <img class="section-about__img" src="./images/image3.jpg" alt="image3" width="370" height="294">
+                                <picture>
+                                    <source srcset="./images/about-pic3-1x.jpg 1x, ./images/about-pic3-2x.jpg 2x" media="(min-width:1200px)">
+                                    <img class="section-about__img" src="./images/about-pic3-1x.jpg" alt="about-pic2" width="370">
+                                </picture>
+                                <!-- <img class="section-about__img" src="./images/image3.jpg" alt="image3" width="370" height="294"> -->
                                 <p class="section-about-overlay__text text">дизайнерские решения</p>
                             </div>
                             </li>
@@ -170,7 +180,19 @@
                     <h2 class="title section-team__title">Наша команда</h2>
                     <ul class="section-team-card__list list">
                         <li class="section-team-card__item">
-                            <img class="section-team-card__img" src="./images/harry.jpg" alt="Игорь" width="270" height="260">
+                            <picture>
+                                <source srcset="./images/harry-desk-1x.jpg 1x, ./images/harry-desk-2x.jpg 2x,"
+                                    media="(min-width:1200px)">
+                                <source srcset="./images/harry-tab-1x.jpg 1x, ./images/harry-tab-1x.jpg 1x"
+                                    media="(min-width:768px)">
+                                <source srcset="./images/harry-mob-1x.jpg 1x, ./images/harry-mob-1x.jpg 1x"
+                                    media="(min-width:320px)">
+                                <img class="section-team-card__img" 
+                                    src="./images/header-mob-1x.jpg"
+                                    alt="Игорь"
+                                    width="270">
+                            </picture>
+                            
                             <div class="section-team-card__wrapper">
                                 <h3 class="section-team-card__title">Игорь Демьяненко</h3>
                                 <p class="text section-team-card__text">Product Designer</p>
@@ -206,7 +228,13 @@
                             </div>
                         </li>
                         <li class="section-team-card__item">
-                            <img class="section-team-card__img" src="./images/olya.jpg" alt="Ольга" width="270" height="260">
+                            <picture>
+                                <source srcset="./images/olya-desk-1x.jpg 1x, ./images/olya-desk-2x.jpg 2x" media="(min-width:1200px)">
+                                <source srcset="./images/olya-tab-1x.jpg 1x, ./images/olya-tab-2x.jpg 2x" media="(min-width:768px)">
+                                <source srcset="./images/olya-mob-1x.jpg 1x, ./images/olya-mob-2x.jpg 2x" media="(min-width:320px)">
+                                <img class="section-team-card__img" src="./images/olya-mob-1x.jpg" alt="Ольга" width="270" >
+                            </picture>
+                            
                             <div class="section-team-card__wrapper">
                                 <h3 class="section-team-card__title">Ольга Репина</h3>
                                 <p class="text section-team-card__text">Frontend Developer</p>
@@ -243,7 +271,13 @@
                             </div>
                         </li>
                         <li class="section-team-card__item">
-                            <img class="section-team-card__img" src="./images/nick.jpg" alt="Николай" width="270" height="260">
+                            <picture>
+                                <source srcset="./images/nick-desk-1x.jpg 1x, ./images/nick-desk-2x.jpg 2x" media="(min-width:1200px)">
+                                <source srcset="./images/nick-tab-1x.jpg 1x, ./images/nick-tab-2x.jpg 2x" media="(min-width:768px)">
+                                <source srcset="./images/nick-mob-1x.jpg 1x, ./images/nick-mob-2x.jpg 2x" media="(min-width:320px)">
+                                <img class="section-team-card__img" src="./images/nick-mob-1x.jpg" alt="Николай" width="270" >
+                            </picture>
+                            
                             <div class="section-team-card__wrapper">
                                 <h3 class="section-team-card__title">Николай Тарасов</h3>
                                 <p class="text section-team-card__text">Marketing</p>
@@ -280,7 +314,13 @@
                             </div>
                         </li>
                         <li class="section-team-card__item">
-                            <img class="section-team-card__img" src="./images/mike.jpg" alt="Михаил" width="270" height="260">
+                            <picture>
+                                <source srcset="./images/mike-desk-1x.jpg 1x, ./images/mike-desk-2x.jpg 2x" media="(min-width:1200px)">
+                                <source srcset="./images/mike-tab-1x.jpg 1x, ./images/mike-tab-2x.jpg 2x" media="(min-width:768px)">
+                                <source srcset="./images/mike-mob-1x.jpg 1x, ./images/mike-mob-2x.jpg 2x" media="(min-width:320px)">
+                                <img class="section-team-card__img" src="./images/mike-mob-1x.jpg" alt="Михаил" width="270">
+                            </picture>
+                           
                             <div class="section-team-card__wrapper">
                                 <h3 class="section-team-card__title">Михаил Ермаков</h3>
                                 <p class="text section-team-card__text">UI Designer</p>

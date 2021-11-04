@@ -12,10 +12,6 @@
   --modal-svg-fill: #212121;
 }
 
-.a {
-  fill: var(--modal-svg-fill);
-}
-
 h1,
 h2,
 h3,
@@ -36,6 +32,7 @@ ol {
 
 img {
   display: block;
+  width: 100%;
 }
 
 body {
@@ -395,7 +392,7 @@ body {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .mob-close-btn {
     top: 10px;
-    right: 15px;
+    right: 35px;
   }
 }
 
