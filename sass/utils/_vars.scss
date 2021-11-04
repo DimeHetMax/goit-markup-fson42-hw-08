@@ -5,8 +5,12 @@
   --secondary-text-color: #ffffff;
   --accent-color: #2196f3;
   --background-color: #2f303a;
+  --mob-background-color: #ffffff;
   --secondary-background-color: #f5f4fa;
   --social-media-fill: #afb1b8;
   --social-media-fill-dark: #ffffff;
   --modal-svg-fill: #212121;
+}
+.a {
+  fill: var(--modal-svg-fill);
 }
