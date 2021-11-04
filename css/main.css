@@ -379,12 +379,6 @@ body {
   padding: 48px 0;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  .mob-menu {
-    padding: 48px 25px;
-  }
-}
-
 .mob-close-btn {
   width: 40px;
   height: 40px;
@@ -396,6 +390,13 @@ body {
   position: absolute;
   top: 10px;
   right: 15px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .mob-close-btn {
+    top: 10px;
+    right: 15px;
+  }
 }
 
 .mob-close-btn__svg {
@@ -484,6 +485,12 @@ body {
   opacity: 1;
   pointer-events: auto;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .js-menu-container.is-open {
+    padding: 48px 25px;
+  }
 }
 
 .js-menu-container {
